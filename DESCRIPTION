@@ -18,14 +18,14 @@ Depends:
 Imports: SingleCellExperiment,
     AnnotationHub,
     LRBaseDbi,
-    scTensor,
+    scTensor (>= 2.3.3),
     einsum,
-    rTensor,
-    nnTensor,
+    rTensor (>= 1.4.8),
+    nnTensor (>= 1.1.5),
     HDF5Array,
     DelayedArray,
-    DelayedTensor,
-    mwTensor
+    DelayedTensor (>= 0.99.11),
+    mwTensor (>= 0.99.5)
 Suggests: 
     knitr,
     rmarkdown,
