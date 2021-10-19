@@ -24,7 +24,7 @@ Imports: SingleCellExperiment,
     nnTensor,
     HDF5Array,
     DelayedArray,
-    DelayedTensorv
+    DelayedTensor,
     mwTensor
 Suggests: 
     knitr,
