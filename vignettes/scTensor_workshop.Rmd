@@ -318,7 +318,7 @@ darr_L <- DelayedArray(L)
 darr_R <- DelayedArray(R)
 ```
 
-`DelayedArray` provides the __lazy evaluation__ that is computed when the data value is actually needed, and an __out-of-core__ implementation that sequentially puts only a defined block size into memory and uses it for computation.
+`DelayedArray` provides the _lazy evaluation_ that is computed when the data value is actually needed, and an _out-of-core_ implementation that sequentially puts only a defined block size into memory and uses it for computation.
 
 The `DelayedTensor` package attaches tensor arithmetic and tensor decomposition functions to `DelayedArray`, just like the relationship between R standard array and `rTensor` package.
 
