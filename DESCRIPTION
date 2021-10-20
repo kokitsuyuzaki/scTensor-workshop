@@ -18,7 +18,7 @@ Depends:
 Imports: SingleCellExperiment,
     AnnotationHub,
     LRBaseDbi,
-    scTensor (>= 2.3.3),
+    scTensor (>= 2.3.4),
     einsum,
     rTensor (>= 1.4.8),
     nnTensor (>= 1.1.5),
