@@ -10,28 +10,20 @@ Authors@R:
 Description: In this workshop (presented in Japanese), you will learn how to detect cell-cell interaction from single-cell RNA-sequencing (scRNA-Seq) data using scTensor package. Moreover, you will learn some tensor frameworks of R language and will be able to freely use and decompose your original tensor data.
 License: MIT + file LICENSE
 Encoding: UTF-8
-LazyData: true
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.1.0
-Depends:
-    Biobase
-Imports:
-    SingleCellExperiment,
-    AnnotationHub,
-    LRBaseDbi,
-    scTensor (>= 2.3.4),
-    einsum,
-    rTensor (>= 1.4.8),
-    nnTensor (>= 1.1.5),
-    HDF5Array,
-    DelayedArray,
-    DelayedTensor (>= 0.99.11),
-    mwTensor (>= 0.99.5)
-Suggests:
-    knitr,
-    rmarkdown,
-    pkgdown
+Depends: Biobase
+Imports: SingleCellExperiment, AnnotationHub, LRBaseDbi, scTensor (>=
+        2.3.4), einsum, rTensor (>= 1.4.8), nnTensor (>= 1.1.5),
+        HDF5Array, DelayedArray, DelayedTensor (>= 0.99.11), mwTensor
+        (>= 0.99.5)
+Suggests: knitr, rmarkdown, pkgdown
 URL: https://kokitsuyuzaki.github.io/scTensorWorkshop/
 BugReports: https://github.com/kokitsuyuzaki/scTensorWorkshop/issues/new/choose
 VignetteBuilder: knitr
 DockerImage: koki/sctensor-workshop:latest
+NeedsCompilation: no
+Packaged: 2021-10-20 08:57:59 UTC; root
+Author: Koki Tsuyuzaki [aut, cre] (<https://orcid.org/0000-0003-3797-2148>)
+Maintainer: Koki Tsuyuzaki <k.t.the-answer@hotmail.co.jp>
+Built: R 4.1.1; ; 2021-10-20 08:58:07 UTC; unix

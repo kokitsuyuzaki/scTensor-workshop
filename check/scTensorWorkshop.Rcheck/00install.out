@@ -1,0 +1,12 @@
+* installing *source* package ‘scTensorWorkshop’ ...
+** using staged installation
+** inst
+** help
+No man pages found in package  ‘scTensorWorkshop’ 
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+** testing if installed package can be loaded from final location
+** testing if installed package keeps a record of temporary installation path
+* DONE (scTensorWorkshop)
