@@ -4,6 +4,8 @@ WORKDIR /home/rstudio
 
 COPY --chown=rstudio:rstudio . /home/rstudio/
 
+ENV RHUB_PLATFORM linux-x86_64-ubuntu-gcc
+
 RUN apt-get update \
 	&& apt-get install -y --no-install-recommends apt-utils \
 	&& apt-get install -y --no-install-recommends \

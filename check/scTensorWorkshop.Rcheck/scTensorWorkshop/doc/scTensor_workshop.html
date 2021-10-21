@@ -486,9 +486,9 @@ cellCellReport(sce, reducedDimNames=&quot;TSNE&quot;, out.dir=tmpdir,
 #&gt; pattern_1_2.Rmd is created...
 list.files(tmpdir)
 #&gt;  [1] &quot;BiocStyle&quot;                      &quot;figures&quot;                       
-#&gt;  [3] &quot;fileb36b14dde66e&quot;               &quot;fileb36b1976ced8&quot;              
-#&gt;  [5] &quot;fileb36b27dabed4&quot;               &quot;fileb36b40089ba6&quot;              
-#&gt;  [7] &quot;fileb36b5259af9f&quot;               &quot;fileb36b535a9a5&quot;               
+#&gt;  [3] &quot;fileb540134bc320&quot;               &quot;fileb54017f50df4&quot;              
+#&gt;  [5] &quot;fileb5402d4207f5&quot;               &quot;fileb54038ef7334&quot;              
+#&gt;  [7] &quot;fileb5406e232922&quot;               &quot;fileb5407ab2ccdb&quot;              
 #&gt;  [9] &quot;index.html&quot;                     &quot;index.R&quot;                       
 #&gt; [11] &quot;index.Rmd&quot;                      &quot;ligand_all.html&quot;               
 #&gt; [13] &quot;ligand_all.Rmd&quot;                 &quot;ligand.html&quot;                   
@@ -499,10 +499,10 @@ list.files(tmpdir)
 #&gt; [23] &quot;reanalysis.RData&quot;               &quot;receptor_all.html&quot;             
 #&gt; [25] &quot;receptor_all.Rmd&quot;               &quot;receptor.html&quot;                 
 #&gt; [27] &quot;receptor.R&quot;                     &quot;receptor.Rmd&quot;                  
-#&gt; [29] &quot;rmarkdown-strb36b17090e56.html&quot; &quot;rmarkdown-strb36b30e92b0d.html&quot;
-#&gt; [31] &quot;rmarkdown-strb36b3c04a302.html&quot; &quot;rmarkdown-strb36b614e3e5.html&quot; 
-#&gt; [33] &quot;rmarkdown-strb36b66438c7a.html&quot; &quot;rmarkdown-strb36b6cb7a1b3.html&quot;
-#&gt; [35] &quot;rmarkdown-strb36b7e6d000f.html&quot; &quot;Workflow_2.png&quot;</code></pre>
+#&gt; [29] &quot;rmarkdown-strb5401119091c.html&quot; &quot;rmarkdown-strb54017262947.html&quot;
+#&gt; [31] &quot;rmarkdown-strb540259d0bd3.html&quot; &quot;rmarkdown-strb5403303aca6.html&quot;
+#&gt; [33] &quot;rmarkdown-strb54047cb5604.html&quot; &quot;rmarkdown-strb54057950ce1.html&quot;
+#&gt; [35] &quot;rmarkdown-strb54073158fd3.html&quot; &quot;Workflow_2.png&quot;</code></pre>
 </div>
 <div id="simulation-dataset" class="section level4" number="0.4.5.2">
 <h4><span class="header-section-number">0.4.5.2</span> Simulation dataset</h4>
@@ -713,116 +713,116 @@ rTensor::fnorm(CCItensor) # Frobenius Norm
 out_nn &lt;- nnTensor::NTD(CCItensor, algorithm=&quot;KL&quot;, rank=c(3,4,5), verbose=TRUE)
 #&gt; Initialization step is running...
 #&gt; Iterative step is running...
-#&gt; 1 / 100 |Previous Error - Error| / Error = 2.85155609546903
-#&gt; 2 / 100 |Previous Error - Error| / Error = 0.00657812433399803
-#&gt; 3 / 100 |Previous Error - Error| / Error = 0.00562378565669097
-#&gt; 4 / 100 |Previous Error - Error| / Error = 0.0040047072738863
-#&gt; 5 / 100 |Previous Error - Error| / Error = 0.00322985160256369
-#&gt; 6 / 100 |Previous Error - Error| / Error = 0.00306911177197136
-#&gt; 7 / 100 |Previous Error - Error| / Error = 0.00301896240354973
-#&gt; 8 / 100 |Previous Error - Error| / Error = 0.00293045220317266
-#&gt; 9 / 100 |Previous Error - Error| / Error = 0.00278464801820854
-#&gt; 10 / 100 |Previous Error - Error| / Error = 0.00259974099261703
-#&gt; 11 / 100 |Previous Error - Error| / Error = 0.00240607815310905
-#&gt; 12 / 100 |Previous Error - Error| / Error = 0.00223165234307653
-#&gt; 13 / 100 |Previous Error - Error| / Error = 0.00209205560874976
-#&gt; 14 / 100 |Previous Error - Error| / Error = 0.00198914033953297
-#&gt; 15 / 100 |Previous Error - Error| / Error = 0.00191608897801642
-#&gt; 16 / 100 |Previous Error - Error| / Error = 0.00186291197867713
-#&gt; 17 / 100 |Previous Error - Error| / Error = 0.00181959633155491
-#&gt; 18 / 100 |Previous Error - Error| / Error = 0.0017774148061174
-#&gt; 19 / 100 |Previous Error - Error| / Error = 0.00172950581123867
-#&gt; 20 / 100 |Previous Error - Error| / Error = 0.00167125323871378
-#&gt; 21 / 100 |Previous Error - Error| / Error = 0.00160050233393526
-#&gt; 22 / 100 |Previous Error - Error| / Error = 0.00151748906994188
-#&gt; 23 / 100 |Previous Error - Error| / Error = 0.00142442396925415
-#&gt; 24 / 100 |Previous Error - Error| / Error = 0.00132480793084555
-#&gt; 25 / 100 |Previous Error - Error| / Error = 0.00122265428278574
-#&gt; 26 / 100 |Previous Error - Error| / Error = 0.00112179956945879
-#&gt; 27 / 100 |Previous Error - Error| / Error = 0.00102542251400113
-#&gt; 28 / 100 |Previous Error - Error| / Error = 0.00093580478772556
-#&gt; 29 / 100 |Previous Error - Error| / Error = 0.000854299781881324
-#&gt; 30 / 100 |Previous Error - Error| / Error = 0.000781442649248019
-#&gt; 31 / 100 |Previous Error - Error| / Error = 0.000717132043478607
-#&gt; 32 / 100 |Previous Error - Error| / Error = 0.000660828472733268
-#&gt; 33 / 100 |Previous Error - Error| / Error = 0.000611734123152892
-#&gt; 34 / 100 |Previous Error - Error| / Error = 0.000568936998546164
-#&gt; 35 / 100 |Previous Error - Error| / Error = 0.000531515190832362
-#&gt; 36 / 100 |Previous Error - Error| / Error = 0.000498604780487827
-#&gt; 37 / 100 |Previous Error - Error| / Error = 0.000469438345124215
-#&gt; 38 / 100 |Previous Error - Error| / Error = 0.000443361757034415
-#&gt; 39 / 100 |Previous Error - Error| / Error = 0.000419836144615902
-#&gt; 40 / 100 |Previous Error - Error| / Error = 0.000398430492268234
-#&gt; 41 / 100 |Previous Error - Error| / Error = 0.000378808910202044
-#&gt; 42 / 100 |Previous Error - Error| / Error = 0.00036071538344938
-#&gt; 43 / 100 |Previous Error - Error| / Error = 0.000343957882497664
-#&gt; 44 / 100 |Previous Error - Error| / Error = 0.000328393059740018
-#&gt; 45 / 100 |Previous Error - Error| / Error = 0.000313912302671283
-#&gt; 46 / 100 |Previous Error - Error| / Error = 0.000300429603509423
-#&gt; 47 / 100 |Previous Error - Error| / Error = 0.000287871489005087
-#&gt; 48 / 100 |Previous Error - Error| / Error = 0.000276169104604297
-#&gt; 49 / 100 |Previous Error - Error| / Error = 0.000265252446490262
-#&gt; 50 / 100 |Previous Error - Error| / Error = 0.000255046670568953
-#&gt; 51 / 100 |Previous Error - Error| / Error = 0.000245470365532605
-#&gt; 52 / 100 |Previous Error - Error| / Error = 0.00023643564206532
-#&gt; 53 / 100 |Previous Error - Error| / Error = 0.000227849846055751
-#&gt; 54 / 100 |Previous Error - Error| / Error = 0.000219618638814635
-#&gt; 55 / 100 |Previous Error - Error| / Error = 0.000211650099570094
-#&gt; 56 / 100 |Previous Error - Error| / Error = 0.000203859405621022
-#&gt; 57 / 100 |Previous Error - Error| / Error = 0.000196173556961497
-#&gt; 58 / 100 |Previous Error - Error| / Error = 0.000188535566026368
-#&gt; 59 / 100 |Previous Error - Error| / Error = 0.000180907558851347
-#&gt; 60 / 100 |Previous Error - Error| / Error = 0.000173272347613224
-#&gt; 61 / 100 |Previous Error - Error| / Error = 0.000165633230480193
-#&gt; 62 / 100 |Previous Error - Error| / Error = 0.000158012022892636
-#&gt; 63 / 100 |Previous Error - Error| / Error = 0.000150445576976996
-#&gt; 64 / 100 |Previous Error - Error| / Error = 0.000142981250621394
-#&gt; 65 / 100 |Previous Error - Error| / Error = 0.000135671904140846
-#&gt; 66 / 100 |Previous Error - Error| / Error = 0.00012857101286545
-#&gt; 67 / 100 |Previous Error - Error| / Error = 0.00012172839729158
-#&gt; 68 / 100 |Previous Error - Error| / Error = 0.000115186918716338
-#&gt; 69 / 100 |Previous Error - Error| / Error = 0.000108980307423002
-#&gt; 70 / 100 |Previous Error - Error| / Error = 0.000103132120404921
-#&gt; 71 / 100 |Previous Error - Error| / Error = 9.76556933094456e-05
-#&gt; 72 / 100 |Previous Error - Error| / Error = 9.25548694369803e-05
-#&gt; 73 / 100 |Previous Error - Error| / Error = 8.78252566970086e-05
-#&gt; 74 / 100 |Previous Error - Error| / Error = 8.34557720293407e-05
-#&gt; 75 / 100 |Previous Error - Error| / Error = 7.94302683309987e-05
-#&gt; 76 / 100 |Previous Error - Error| / Error = 7.57290879537576e-05
-#&gt; 77 / 100 |Previous Error - Error| / Error = 7.23304383698293e-05
-#&gt; 78 / 100 |Previous Error - Error| / Error = 6.92115322326953e-05
-#&gt; 79 / 100 |Previous Error - Error| / Error = 6.63494718662012e-05
-#&gt; 80 / 100 |Previous Error - Error| / Error = 6.37218858984906e-05
-#&gt; 81 / 100 |Previous Error - Error| / Error = 6.13073438864952e-05
-#&gt; 82 / 100 |Previous Error - Error| / Error = 5.90855849005935e-05
-#&gt; 83 / 100 |Previous Error - Error| / Error = 5.70375999901575e-05
-#&gt; 84 / 100 |Previous Error - Error| / Error = 5.51456081185357e-05
-#&gt; 85 / 100 |Previous Error - Error| / Error = 5.33929620904193e-05
-#&gt; 86 / 100 |Previous Error - Error| / Error = 5.17640164112014e-05
-#&gt; 87 / 100 |Previous Error - Error| / Error = 5.02439838074361e-05
-#&gt; 88 / 100 |Previous Error - Error| / Error = 4.88188018153699e-05
-#&gt; 89 / 100 |Previous Error - Error| / Error = 4.74750257340112e-05
-#&gt; 90 / 100 |Previous Error - Error| / Error = 4.61997594042233e-05
-#&gt; 91 / 100 |Previous Error - Error| / Error = 4.49806307532505e-05
-#&gt; 92 / 100 |Previous Error - Error| / Error = 4.38058147090217e-05
-#&gt; 93 / 100 |Previous Error - Error| / Error = 4.26641019513975e-05
-#&gt; 94 / 100 |Previous Error - Error| / Error = 4.15450079688862e-05
-#&gt; 95 / 100 |Previous Error - Error| / Error = 4.04389131835485e-05
-#&gt; 96 / 100 |Previous Error - Error| / Error = 3.93372216264883e-05
-#&gt; 97 / 100 |Previous Error - Error| / Error = 3.82325231292402e-05
-#&gt; 98 / 100 |Previous Error - Error| / Error = 3.71187425397793e-05
-#&gt; 99 / 100 |Previous Error - Error| / Error = 3.59912593733665e-05
-#&gt; 100 / 100 |Previous Error - Error| / Error = 3.48469828291472e-05
+#&gt; 1 / 100 |Previous Error - Error| / Error = 1.36420034725135
+#&gt; 2 / 100 |Previous Error - Error| / Error = 0.00781253002830588
+#&gt; 3 / 100 |Previous Error - Error| / Error = 0.00445322984733604
+#&gt; 4 / 100 |Previous Error - Error| / Error = 0.00272866555419722
+#&gt; 5 / 100 |Previous Error - Error| / Error = 0.0018479395184897
+#&gt; 6 / 100 |Previous Error - Error| / Error = 0.00136123967753361
+#&gt; 7 / 100 |Previous Error - Error| / Error = 0.00106211206189297
+#&gt; 8 / 100 |Previous Error - Error| / Error = 0.000859891885966156
+#&gt; 9 / 100 |Previous Error - Error| / Error = 0.000713193240971209
+#&gt; 10 / 100 |Previous Error - Error| / Error = 0.000602031734134973
+#&gt; 11 / 100 |Previous Error - Error| / Error = 0.000516233274809657
+#&gt; 12 / 100 |Previous Error - Error| / Error = 0.000450204220217158
+#&gt; 13 / 100 |Previous Error - Error| / Error = 0.0004003759636763
+#&gt; 14 / 100 |Previous Error - Error| / Error = 0.00036395870076112
+#&gt; 15 / 100 |Previous Error - Error| / Error = 0.00033842073459001
+#&gt; 16 / 100 |Previous Error - Error| / Error = 0.00032137083118298
+#&gt; 17 / 100 |Previous Error - Error| / Error = 0.000310627091746448
+#&gt; 18 / 100 |Previous Error - Error| / Error = 0.000304324567603337
+#&gt; 19 / 100 |Previous Error - Error| / Error = 0.000300978758934148
+#&gt; 20 / 100 |Previous Error - Error| / Error = 0.000299482289850086
+#&gt; 21 / 100 |Previous Error - Error| / Error = 0.000299052686836506
+#&gt; 22 / 100 |Previous Error - Error| / Error = 0.000299162089705343
+#&gt; 23 / 100 |Previous Error - Error| / Error = 0.000299472311271364
+#&gt; 24 / 100 |Previous Error - Error| / Error = 0.000299785403316468
+#&gt; 25 / 100 |Previous Error - Error| / Error = 0.000300010362120427
+#&gt; 26 / 100 |Previous Error - Error| / Error = 0.000300142619265543
+#&gt; 27 / 100 |Previous Error - Error| / Error = 0.000300252450919453
+#&gt; 28 / 100 |Previous Error - Error| / Error = 0.000300479237054217
+#&gt; 29 / 100 |Previous Error - Error| / Error = 0.000301029496179372
+#&gt; 30 / 100 |Previous Error - Error| / Error = 0.000302177426708002
+#&gt; 31 / 100 |Previous Error - Error| / Error = 0.000304267169059341
+#&gt; 32 / 100 |Previous Error - Error| / Error = 0.000307716052205075
+#&gt; 33 / 100 |Previous Error - Error| / Error = 0.000313017565558487
+#&gt; 34 / 100 |Previous Error - Error| / Error = 0.000320741522133287
+#&gt; 35 / 100 |Previous Error - Error| / Error = 0.000331526602247459
+#&gt; 36 / 100 |Previous Error - Error| / Error = 0.000346056856816516
+#&gt; 37 / 100 |Previous Error - Error| / Error = 0.000365008508977264
+#&gt; 38 / 100 |Previous Error - Error| / Error = 0.000388946744380577
+#&gt; 39 / 100 |Previous Error - Error| / Error = 0.000418146144970398
+#&gt; 40 / 100 |Previous Error - Error| / Error = 0.000452309442823191
+#&gt; 41 / 100 |Previous Error - Error| / Error = 0.000490181911825343
+#&gt; 42 / 100 |Previous Error - Error| / Error = 0.000529126173086584
+#&gt; 43 / 100 |Previous Error - Error| / Error = 0.000564850386174992
+#&gt; 44 / 100 |Previous Error - Error| / Error = 0.000591630342804258
+#&gt; 45 / 100 |Previous Error - Error| / Error = 0.000603371394344238
+#&gt; 46 / 100 |Previous Error - Error| / Error = 0.000595492708480856
+#&gt; 47 / 100 |Previous Error - Error| / Error = 0.000566905570008402
+#&gt; 48 / 100 |Previous Error - Error| / Error = 0.000520871473536467
+#&gt; 49 / 100 |Previous Error - Error| / Error = 0.000463983117398991
+#&gt; 50 / 100 |Previous Error - Error| / Error = 0.000403774267602224
+#&gt; 51 / 100 |Previous Error - Error| / Error = 0.00034638699598031
+#&gt; 52 / 100 |Previous Error - Error| / Error = 0.000295440274890842
+#&gt; 53 / 100 |Previous Error - Error| / Error = 0.000252196548449646
+#&gt; 54 / 100 |Previous Error - Error| / Error = 0.000216384417723151
+#&gt; 55 / 100 |Previous Error - Error| / Error = 0.000187027766670898
+#&gt; 56 / 100 |Previous Error - Error| / Error = 0.000162990666787693
+#&gt; 57 / 100 |Previous Error - Error| / Error = 0.000143238748751958
+#&gt; 58 / 100 |Previous Error - Error| / Error = 0.000126921323749117
+#&gt; 59 / 100 |Previous Error - Error| / Error = 0.000113368921879001
+#&gt; 60 / 100 |Previous Error - Error| / Error = 0.000102062259027316
+#&gt; 61 / 100 |Previous Error - Error| / Error = 9.25980473530098e-05
+#&gt; 62 / 100 |Previous Error - Error| / Error = 8.4660274953628e-05
+#&gt; 63 / 100 |Previous Error - Error| / Error = 7.7998291104774e-05
+#&gt; 64 / 100 |Previous Error - Error| / Error = 7.24105899721738e-05
+#&gt; 65 / 100 |Previous Error - Error| / Error = 6.77327575934914e-05
+#&gt; 66 / 100 |Previous Error - Error| / Error = 6.3828293672446e-05
+#&gt; 67 / 100 |Previous Error - Error| / Error = 6.05814272008941e-05
+#&gt; 68 / 100 |Previous Error - Error| / Error = 5.78914624594186e-05
+#&gt; 69 / 100 |Previous Error - Error| / Error = 5.56685678064418e-05
+#&gt; 70 / 100 |Previous Error - Error| / Error = 5.38311667724171e-05
+#&gt; 71 / 100 |Previous Error - Error| / Error = 5.23050679581887e-05
+#&gt; 72 / 100 |Previous Error - Error| / Error = 5.10240949828321e-05
+#&gt; 73 / 100 |Previous Error - Error| / Error = 4.99314103427957e-05
+#&gt; 74 / 100 |Previous Error - Error| / Error = 4.89803992900245e-05
+#&gt; 75 / 100 |Previous Error - Error| / Error = 4.8134279943311e-05
+#&gt; 76 / 100 |Previous Error - Error| / Error = 4.73644356211213e-05
+#&gt; 77 / 100 |Previous Error - Error| / Error = 4.66482266195424e-05
+#&gt; 78 / 100 |Previous Error - Error| / Error = 4.59671893313771e-05
+#&gt; 79 / 100 |Previous Error - Error| / Error = 4.53060886137063e-05
+#&gt; 80 / 100 |Previous Error - Error| / Error = 4.46527136333253e-05
+#&gt; 81 / 100 |Previous Error - Error| / Error = 4.39980005016324e-05
+#&gt; 82 / 100 |Previous Error - Error| / Error = 4.33360938221643e-05
+#&gt; 83 / 100 |Previous Error - Error| / Error = 4.2664157658468e-05
+#&gt; 84 / 100 |Previous Error - Error| / Error = 4.19819359571288e-05
+#&gt; 85 / 100 |Previous Error - Error| / Error = 4.12911629827033e-05
+#&gt; 86 / 100 |Previous Error - Error| / Error = 4.05949411253581e-05
+#&gt; 87 / 100 |Previous Error - Error| / Error = 3.98971744967565e-05
+#&gt; 88 / 100 |Previous Error - Error| / Error = 3.92021059953808e-05
+#&gt; 89 / 100 |Previous Error - Error| / Error = 3.85139714906417e-05
+#&gt; 90 / 100 |Previous Error - Error| / Error = 3.78367631641995e-05
+#&gt; 91 / 100 |Previous Error - Error| / Error = 3.71740835459571e-05
+#&gt; 92 / 100 |Previous Error - Error| / Error = 3.65290690105519e-05
+#&gt; 93 / 100 |Previous Error - Error| / Error = 3.59043630021969e-05
+#&gt; 94 / 100 |Previous Error - Error| / Error = 3.53021226533651e-05
+#&gt; 95 / 100 |Previous Error - Error| / Error = 3.47240462428059e-05
+#&gt; 96 / 100 |Previous Error - Error| / Error = 3.41714124071723e-05
+#&gt; 97 / 100 |Previous Error - Error| / Error = 3.36451248135356e-05
+#&gt; 98 / 100 |Previous Error - Error| / Error = 3.31457581766944e-05
+#&gt; 99 / 100 |Previous Error - Error| / Error = 3.26736030466911e-05
+#&gt; 100 / 100 |Previous Error - Error| / Error = 3.22287078925777e-05
 str(out_nn$A) # Factor matrices
 #&gt; List of 3
-#&gt;  $ A1: num [1:3, 1:50] 0.002645 0.000433 0.010127 0.050264 0.0201 ...
-#&gt;  $ A2: num [1:4, 1:50] 7.51e-16 1.03e-02 3.74e-07 5.64e-21 7.90e-04 ...
-#&gt;  $ A3: num [1:5, 1:30] 4.27e-35 1.54e-03 5.31e-08 6.93e-01 9.73e-15 ...
+#&gt;  $ A1: num [1:3, 1:50] 2.75e-21 1.45e-02 1.09e-32 1.90e-02 6.83e-02 ...
+#&gt;  $ A2: num [1:4, 1:50] 7.37e-20 9.67e-03 7.06e-33 2.80e-25 1.92e-12 ...
+#&gt;  $ A3: num [1:5, 1:30] 2.08e-19 3.93e-13 2.17e-15 6.36e-01 2.52e-28 ...
 str(out_nn$S) # Core tensor
 #&gt; Formal class &#39;Tensor&#39; [package &quot;rTensor&quot;] with 3 slots
 #&gt;   ..@ num_modes: int 3
 #&gt;   ..@ modes    : int [1:3] 3 4 5
-#&gt;   ..@ data     : num [1:3, 1:4, 1:5] 1.41e+08 1.84e+07 3.59e+07 5.62e+08 7.49e+07 ...</code></pre>
+#&gt;   ..@ data     : num [1:3, 1:4, 1:5] 4.27e+08 4.03e+07 2.14e+08 7.59e+08 9.31e+07 ...</code></pre>
 <p>In addition to <code>NTD</code>, various non-negative matrix and tensor decompositions are available in the <code>nnTensor</code> package. For the further details, check the <a href="https://cran.r-project.org/web/packages/rTensor/rTensor.pdf">document</a>.</p>
 </div>
 <div id="delayedtensor" class="section level3" number="0.5.4">
@@ -908,68 +908,68 @@ Initialization step (Common Core Tensors)...
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-2 / 10 |Previous Error - Error| / Error = 0.999999999999859
+2 / 10 |Previous Error - Error| / Error = 0.999999999999867
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-3 / 10 |Previous Error - Error| / Error = 0.016540099742041
+3 / 10 |Previous Error - Error| / Error = 0.0455276890627803
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-4 / 10 |Previous Error - Error| / Error = 0.00129657105022551
+4 / 10 |Previous Error - Error| / Error = 0.0106003740749341
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-5 / 10 |Previous Error - Error| / Error = 0.00834653491319094
+5 / 10 |Previous Error - Error| / Error = 0.00200772563786552
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-6 / 10 |Previous Error - Error| / Error = 0.00165475756894783
+6 / 10 |Previous Error - Error| / Error = 0.00835177646747314
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-7 / 10 |Previous Error - Error| / Error = 0.0185433890153155
+7 / 10 |Previous Error - Error| / Error = 0.00937202579741924
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-8 / 10 |Previous Error - Error| / Error = 0.00713507671421245
+8 / 10 |Previous Error - Error| / Error = 0.00998722408297665
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-9 / 10 |Previous Error - Error| / Error = 0.0127947411382922
+9 / 10 |Previous Error - Error| / Error = 0.0166232657419486
 #&gt; 2 / 5 Common factor matricies are being updated
 3 / 5 Common factor matricies are being updated
 4 / 5 Common factor matricies are being updated
 5 / 5 Common factor matricies are being updated
-10 / 10 |Previous Error - Error| / Error = 0.00158009130367365
+10 / 10 |Previous Error - Error| / Error = 0.00746257374302381
 str(out_mw@common_factors)
 #&gt; List of 5
-#&gt;  $ A1: num [1:3, 1:20] -0.219 0.342 -0.149 -0.218 0.343 ...
-#&gt;  $ A2: num [1:3, 1:30] -0.3319 -0.289 0.0838 -0.3323 -0.2905 ...
-#&gt;  $ A3: num [1:5, 1:30] 1.95e-02 3.25e-06 -1.54e-09 3.92e-01 3.83e-02 ...
-#&gt;  $ A4: num [1:4, 1:30] -0.0546 -0.26 0.1892 -0.243 -0.0563 ...
-#&gt;  $ A5: num [1:4, 1:25] 0.1755 -0.0525 -0.2328 0.31 0.1782 ...
+#&gt;  $ A1: num [1:3, 1:20] 0.14 0.176 0.23 0.145 0.178 ...
+#&gt;  $ A2: num [1:3, 1:30] 0.179 -0.234 -0.112 0.179 -0.236 ...
+#&gt;  $ A3: num [1:5, 1:30] 3.05e-01 -1.25e-04 -7.89e-15 3.15e-01 -8.11e-03 ...
+#&gt;  $ A4: num [1:4, 1:30] 0.1339 0.0343 0.3673 -0.1097 0.1334 ...
+#&gt;  $ A5: num [1:4, 1:25] -0.1009 -0.1185 0.0384 -0.3448 -0.1016 ...
 str(out_mw@common_cores)
 #&gt; List of 3
 #&gt;  $ :Formal class &#39;Tensor&#39; [package &quot;rTensor&quot;] with 3 slots
 #&gt;   .. ..@ num_modes: int 2
 #&gt;   .. ..@ modes    : int [1:2] 3 3
-#&gt;   .. ..@ data     : num [1:3, 1:3] 605.1 38.2 427.7 -558.4 -512.1 ...
+#&gt;   .. ..@ data     : num [1:3, 1:3] 464 450.3 96.6 48.2 347.1 ...
 #&gt;  $ :Formal class &#39;Tensor&#39; [package &quot;rTensor&quot;] with 3 slots
 #&gt;   .. ..@ num_modes: int 3
 #&gt;   .. ..@ modes    : int [1:3] 3 5 4
-#&gt;   .. ..@ data     : num [1:3, 1:5, 1:4] 52.2 -56.2 267.2 -172.7 267.9 ...
+#&gt;   .. ..@ data     : num [1:3, 1:5, 1:4] -73.2 -126 -39.3 -91.9 591.6 ...
 #&gt;  $ :Formal class &#39;Tensor&#39; [package &quot;rTensor&quot;] with 3 slots
 #&gt;   .. ..@ num_modes: int 2
 #&gt;   .. ..@ modes    : int [1:2] 4 4
-#&gt;   .. ..@ data     : num [1:4, 1:4] -1.32 -32.35 418.97 -3.76 427.73 ...</code></pre>
+#&gt;   .. ..@ data     : num [1:4, 1:4] -6.98 -26.13 -12.35 444.12 -456.53 ...</code></pre>
 </div>
 </div>
 <div id="session-information" class="section level2" number="0.6">
