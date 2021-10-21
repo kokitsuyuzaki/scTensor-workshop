@@ -53,18 +53,15 @@ jobs:
           remotes::install_cran("rcmdcheck")
         shell: Rscript {0}
 
-      # deploy needs rsync? Seems so.
-      - name: Install deploy dependencies
-        run: |
-          apt-get update
-          apt-get -y install rsync
+      - name: Check
+        env:
+          _R_CHECK_CRAN_INCOMING_REMOTE_: false
+        run: rcmdcheck::rcmdcheck(args = c("--no-manual"), error_on = "warning", check_dir = "check")
+        shell: Rscript {0}
 
-      - name: Deploy 🚀
-        uses: JamesIves/github-pages-deploy-action@releases/v3
-        with:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          BRANCH: gh-pages # The branch the action should deploy to.
-          FOLDER: docs # The folder the action should deploy.
+      - name: Build pkgdown
+        run: |
+           PATH=$PATH:$HOME/bin/ Rscript -e 'pkgdown::build_site(".")'
 
       - uses: docker/build-push-action@v1
         with:
