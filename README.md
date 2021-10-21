@@ -45,7 +45,7 @@ List any _R_ / _Bioconductor_ / _CRAN_ packages that will be explicitly covered.
 |-----------------------------------------------------------|-----|
 | Cell-cell Interaction Analysis by scTensor                | 20m |
 | Advanced Topics about Tensor Arithmetic and Decomposition | 30m |
-| Q & A
+| Q & A                                                     | 10m |
 
 # To reproduce this workshop material
 

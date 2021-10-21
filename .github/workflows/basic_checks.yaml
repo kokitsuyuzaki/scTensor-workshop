@@ -41,7 +41,7 @@ jobs:
         run: |
           options(repos = c(CRAN = "https://cran.r-project.org"))
           BiocManager::repositories()
-          devtools::install('.', dependencies=TRUE, build_vignettes=TRUE, repos = BiocManager::repositories())
+          remotes::install_deps(dependencies = TRUE, repos = BiocManager::repositories())
           remotes::install_cran("rcmdcheck")
         shell: Rscript {0}
 

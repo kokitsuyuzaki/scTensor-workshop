@@ -19,7 +19,6 @@ Imports:
     SingleCellExperiment,
     AnnotationHub,
     LRBaseDbi,
-    scTensor,
     einsum,
     rTensor (>= 1.4.8),
     nnTensor (>= 1.1.5),
