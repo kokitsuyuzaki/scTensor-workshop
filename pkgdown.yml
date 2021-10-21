@@ -2,10 +2,9 @@ pandoc: 2.14.0.3
 pkgdown: 1.6.1
 pkgdown_sha: ~
 articles:
-  HOWTO_BUILD_WORKSHOP: HOWTO_BUILD_WORKSHOP.html
-  workshop_example: workshop_example.html
-last_built: 2021-10-12T05:57Z
+  scTensor_workshop: scTensor_workshop.html
+last_built: 2021-10-21T10:18Z
 urls:
-  reference: https://seandavi.github.io/BuildABiocWorkshop/reference
-  article: https://seandavi.github.io/BuildABiocWorkshop/articles
+  reference: https://github.com/kokitsuyuzaki/scTensor-workshop/reference
+  article: https://github.com/kokitsuyuzaki/scTensor-workshop/articles
 
