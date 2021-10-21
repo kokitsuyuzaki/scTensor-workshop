@@ -16,9 +16,6 @@ RoxygenNote: 7.1.0
 Depends:
     Biobase
 Imports:
-    SingleCellExperiment,
-    AnnotationHub,
-    LRBaseDbi,
     einsum,
     rTensor (>= 1.4.8),
     nnTensor (>= 1.1.5),
