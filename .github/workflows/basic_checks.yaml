@@ -9,7 +9,7 @@ env:
 jobs:
   job1:
     runs-on: ubuntu-latest
-    container: koki/sctensor-workshop:latest
+    container: bioconductor/bioconductor_docker:devel
     steps:
       - uses: actions/checkout@v1
 
@@ -41,7 +41,7 @@ jobs:
         run: |
           options(repos = c(CRAN = "https://cran.r-project.org"))
           BiocManager::repositories()
-          remotes::install_deps(dependencies = TRUE, repos = BiocManager::repositories())
+          devtools::install('.', dependencies=TRUE, build_vignettes=TRUE, repos = BiocManager::repositories())
           remotes::install_cran("rcmdcheck")
         shell: Rscript {0}
 
